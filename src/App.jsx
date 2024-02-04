@@ -51,6 +51,7 @@ function App() {
     }
 
     function handleAddProject(project) {
+
         const projectId = Math.random();
         const newProject = {
             ...project,
