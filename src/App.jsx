@@ -101,6 +101,7 @@ function App() {
         onDeleteTask={handleDeleteTask}
         tasks={tasks}
     />;
+
     if (projectState.selectProjectId === null) {
         content = <NewProject onAdd={handleAddProject} onCancel={handleCancelAdd}/>
     } else if (projectState.selectProjectId === undefined) {
